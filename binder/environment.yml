@@ -4,9 +4,9 @@ channels:
 dependencies:
   - python=3.6
   - xarray
-  - dask
-  - distributed
-  - dask-kubernetes
+  - dask=2.11.0
+  - distributed=2.11.0
+  - dask-kubernetes=0.10.1
   - gcsfs
   - zarr
   - matplotlib
