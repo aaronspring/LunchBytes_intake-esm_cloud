@@ -1,0 +1,39 @@
+name: pangeo-LunchBytes_intake-esm
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - xarray
+  - dask
+  - distributed
+  - dask-kubernetes
+  - gcsfs
+  - zarr
+  - matplotlib
+  - numcodecs
+  - python-blosc
+  - lz4
+  - nomkl
+  - intake
+  - intake-xarray
+  - nbserverproxy
+  - jupyter
+  - jupyterlab=0.35
+  - jupyterlab_launcher
+  - jupyter_client
+  - ipywidgets
+  - graphviz
+  - nodejs
+  - pip
+  # regridding
+  - esmpy
+  - xesmf
+  - cartopy # mapping
+  - pip:
+    - kubernetes
+    - graphviz
+    - git+https://github.com/bradyrx/climpred.git
+    - jupyter-server-proxy # dashboard communication
+    - nb_black # linting
+    - https://github.com/NCAR/intake-esm.git
+    - https://github.com/jbusecke/cmip6_preprocessing.git
