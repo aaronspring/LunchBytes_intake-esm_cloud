@@ -6,9 +6,9 @@ channels:
 dependencies:
   - python=3.6
   - xarray
-  - dask=2.11.0
-  - distributed=2.11.0
-  - dask-kubernetes=0.10.1
+  - dask #=2.11.0
+  - distributed #=2.11.0
+  - dask-kubernetes #=0.10.1
   - gcsfs
   - zarr
   - matplotlib
@@ -20,7 +20,7 @@ dependencies:
   - intake-xarray
   - nbserverproxy
   - jupyter
-  - jupyterlab=0.35
+  - jupyterlab #=0.35
   - jupyterlab_launcher
   - jupyter_client
   - ipywidgets
