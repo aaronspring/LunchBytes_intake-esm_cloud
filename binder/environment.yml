@@ -1,8 +1,6 @@
 name: pangeo-LunchBytes_intake-esm
 channels:
   - conda-forge
-  - conda-forge/label/renamed
-  - bokeh
 dependencies:
   - python=3.6
   - xarray
@@ -20,7 +18,7 @@ dependencies:
   - intake-xarray
   - nbserverproxy
   - jupyter
-  - jupyterlab #=0.35
+  - jupyterlab=0.35
   - jupyterlab_launcher
   - jupyter_client
   - ipywidgets
@@ -28,7 +26,6 @@ dependencies:
   - ipython
   - graphviz
   - bokeh
-  - jupyter_bokeh
   - nodejs
   - pip
   # regridding
@@ -43,3 +40,4 @@ dependencies:
     - nb_black # linting
     - git+https://github.com/NCAR/intake-esm.git
     - git+https://github.com/jbusecke/cmip6_preprocessing.git
+    - git+https://github.com/mathause/regionmask.git
