@@ -1,6 +1,8 @@
 name: pangeo-LunchBytes_intake-esm
 channels:
   - conda-forge
+  - conda-forge/label/renamed
+  - bokeh
 dependencies:
   - python=3.6
   - xarray
@@ -26,6 +28,7 @@ dependencies:
   - ipython
   - graphviz
   - bokeh
+  - jupyter_bokeh
   - nodejs
   - pip
   # regridding
