@@ -25,6 +25,7 @@ dependencies:
   - widgetsnbextension
   - ipython
   - graphviz
+  - nb_black
   - bokeh=1.4
   - nodejs
   - pip
@@ -37,7 +38,6 @@ dependencies:
     - graphviz
     - git+https://github.com/bradyrx/climpred.git
     - jupyter-server-proxy # dashboard communication
-    - nb_black # linting
     - git+https://github.com/NCAR/intake-esm.git
     - git+https://github.com/jbusecke/cmip6_preprocessing.git
     - git+https://github.com/mathause/regionmask.git
