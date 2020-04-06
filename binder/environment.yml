@@ -20,5 +20,5 @@ dependencies:
   - pip:
     - git+https://github.com/bradyrx/climpred.git
     - git+https://github.com/NCAR/intake-esm.git
-    - git+https://github.com/jbusecke/cmip6_preprocessing.git@refs/pull/37
+    - git+https://github.com/jbusecke/cmip6_preprocessing.git
     - git+https://github.com/mathause/regionmask.git
