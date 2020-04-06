@@ -11,7 +11,6 @@ dependencies:
   - gcsfs
   - zarr
   - intake
-  - bokeh=1.4
   # regridding
   - xesmf
   # vis
