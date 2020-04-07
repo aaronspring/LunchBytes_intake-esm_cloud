@@ -11,8 +11,8 @@ dependencies:
   - gcsfs
   - zarr
   - intake
-  - bokeh=1.4
   # regridding
+  - esmpy=7.1.0
   - xesmf
   # vis
   - matplotlib
