@@ -8,6 +8,7 @@ Workshop: Thursday, March 26 2020, https://gitlab.dkrz.de/m300524/lunchbytes_int
 
 You can find a tutorial in `tutorial.ipynb` and a set of tasks to practice working with 
 `intake-esm` in `tasks.ipynb`.
+`intake-esm` in `tasks.ipynb`.
 
 
 
