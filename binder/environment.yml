@@ -16,7 +16,7 @@ dependencies:
   - xesmf
   # vis
   - matplotlib
-  - cartopy # mapping
+  - cartopy  # mapping
   - pip:
     - git+https://github.com/bradyrx/climpred.git
     - git+https://github.com/NCAR/intake-esm.git
